@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #b4ceff;
+    color: #324a75;
+    font-family: Poppins, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+main {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #33333366 ;
+    padding: 20px;
+    position: relative;
+    height: 280px;
+    width: 320px;    
+}
+main section {
+    text-align: center;
+}
+main section h3 {
+    font-size: 2rem;
+}
+main button {
+    border: none;
+    border-radius: 6px;
+    background-color: #324a75;
+    color: #b4ceff;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 20px;
+    transition: transform 0.1s ease-in;
+    width: 280px;
+}
+main button:hover {
+    transform: scale(1.04);
+}
