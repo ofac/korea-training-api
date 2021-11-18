@@ -13,11 +13,11 @@
         <div id="loginform" class="col-10 mx-auto col-lg-5">
             <form class="p-5 border rounded-3 bg-light" onsubmit="return logIn();">
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="login_email" placeholder="name@example.com" required>
+                    <input type="email" class="form-control" id="login_email" placeholder="name@example.com" value="admin@gmail.com" required>
                     <label for="login_email">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="login_password" placeholder="Password" required>
+                    <input type="password" class="form-control" id="login_password" placeholder="Password" value="admin" required>
                     <label for="login_password">Password</label>
                 </div>
                 <button class="w-50 btn btn-lg btn-primary" type="submit">Log in</button>
