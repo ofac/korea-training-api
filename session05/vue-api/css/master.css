@@ -1,0 +1,8 @@
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+div.card {
+    margin: 8rem auto;
+    width: 28rem;
+}
